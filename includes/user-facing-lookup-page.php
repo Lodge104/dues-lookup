@@ -186,9 +186,6 @@ if ($bsa_reg == "Registered") {
 <input type="submit" value="Go">
 </form>
 <br>
-<p>You can find your Member ID at the bottom of your blue BSA Membership card:</p>
-<p><img src="<?php echo plugins_url("../BSAMemberCard.png", __FILE__) ?>" alt="Membership Card" style="border: 1px solid #ccc;"></p>
-<p>If you can't find your membership card, your unit committee chairperson should be able to look it up on your unit recharter document, or your advancement chairperson can look it up in the Online Advancement System.</p>
 <p>If you just came here to update your contact information, <a href="<?php echo htmlspecialchars(get_option('oadueslookup_update_url')) ?>">click here</a>.</p>
         <?php
     }
